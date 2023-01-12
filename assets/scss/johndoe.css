@@ -9443,6 +9443,11 @@ pre .code {
   background-attachment: fixed;
   color: #fff;
 }
+@media (max-width: 550px) {
+  .header img {
+    width: auto;
+  }
+}
 .header .container {
   position: relative;
   height: 100%;
